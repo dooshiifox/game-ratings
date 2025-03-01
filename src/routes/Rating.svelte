@@ -2,7 +2,7 @@
 	import SvelteMarkdown from "svelte-markdown";
 	import type { Rating } from "./ratingReader";
 	import { createDisclosure } from "@/disclosure.svelte";
-	import { slide } from "svelte/transition";
+	import { fade, slide } from "svelte/transition";
 
 	let {
 		rating
@@ -40,7 +40,7 @@
 
 <button
 	use:disclosure.button
-	class="block w-full rounded-xl bg-slate-100 px-4 pt-2 pb-3 text-left shadow transition-all duration-100 focus-visible:outline focus-visible:outline-amber-500 active:opacity-80 md:px-8 md:py-4"
+	class="block w-full cursor-pointer rounded-xl bg-slate-100 px-4 pt-2 pb-3 text-left shadow transition-all duration-100 focus-visible:outline focus-visible:outline-amber-500 active:opacity-80 md:px-8 md:py-4"
 >
 	{#snippet finished()}
 		{#if rating.meta.finished === null}{:else if rating.meta.finished}
@@ -65,7 +65,7 @@
 	{/snippet}
 
 	<div
-		class="hidden w-full grid-cols-[auto,1fr,auto] grid-rows-[auto,auto] flex-row items-center gap-x-4 xl:grid"
+		class="hidden w-full grid-cols-[auto_1fr_auto] grid-rows-[auto_auto] flex-row items-center gap-x-4 xl:grid"
 	>
 		<div class="text-2xl">
 			{@render rating_chip()}
@@ -106,7 +106,11 @@
 			class="markdown -mx-4 flex flex-col gap-2 px-4 text-lg"
 			transition:slide={{ duration: 200 }}
 		>
-			<div class="-mx-4 mt-4 mb-6 h-px bg-slate-300"></div>
+			<div
+				class="-mx-4 mt-4 mb-6 h-px bg-slate-300"
+				in:fade={{ duration: 100, delay: 200 }}
+				out:fade={{ duration: 100 }}
+			></div>
 
 			<SvelteMarkdown source={rating.content} />
 

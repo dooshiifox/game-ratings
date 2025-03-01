@@ -1,8 +1,8 @@
 ---
 name: Sonic Frontiers
 subtitle: Sonic the Hedgehog
-rating: 4
+rating: 4.5
 finished: false
 ---
 
-wow i did not have fun here. suffers from a lot of the same problems as mario odyssey
+movement feels wrong, bosses aren't that fun, whole thing feels jank. why is the dialog like that i don't know whos talking. cyberspace is the best part but even then its ehhhhh. did not get past the first area.

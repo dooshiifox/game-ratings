@@ -53,7 +53,7 @@
 	<title>da best games eva</title>
 </svelte:head>
 
-<div class="min-h-dvh bg-slate-200 px-4 pb-80 pt-16 text-xl text-slate-900">
+<div class="min-h-dvh bg-slate-200 px-4 pt-16 pb-80 text-xl text-slate-900">
 	<div class="mx-auto max-2xl:max-w-2xl 2xl:w-[1400px]">
 		<h1 class="w-full scale-x-110 px-8 text-center text-5xl font-extrabold">
 			Games that are good.
@@ -62,7 +62,7 @@
 
 		<main class="mt-12 flex w-full flex-col gap-24 2xl:-ml-32 2xl:flex-row">
 			<div class="w-full max-w-xl max-2xl:self-center">
-				<div class="grid w-fit grid-cols-[auto,auto,auto] gap-x-2">
+				<div class="grid w-fit grid-cols-[auto_auto_auto] gap-x-2">
 					<b class="text-right">10</b><span> -</span>
 					<span>Perfect & Life changing</span>
 					<b class="text-right">9</b><span> -</span> <span>Perfect</span>
@@ -90,7 +90,7 @@
 					games.
 				</p>
 
-				<p class="mb-2 mt-8 font-bold">General rules</p>
+				<p class="mt-8 mb-2 font-bold">General rules</p>
 				<ol class="ml-6 list-disc space-y-2">
 					<li>
 						i dont like games where there is a time limit of any kind (Majoras
@@ -128,7 +128,7 @@
 					autocomplete="off"
 					bind:value={search}
 				/>
-				<p class="ml-4 mt-1 text-base text-slate-700">
+				<p class="mt-1 ml-4 text-base text-slate-700">
 					Try search a title, series, or rating.
 				</p>
 
@@ -142,11 +142,11 @@
 					</div>
 				{:else}
 					{#if search === ""}
-						<p class="ml-4 mt-1 text-base text-slate-700">
+						<p class="mt-1 ml-4 text-base text-slate-700">
 							Showing all <span class="font-bold">{settledData.length}</span> ratings.
 						</p>
 					{:else}
-						<p class="ml-4 mt-1 text-base text-slate-700">
+						<p class="mt-1 ml-4 text-base text-slate-700">
 							Search matched <span class="font-bold"
 								>{searchResults.length}</span
 							>
