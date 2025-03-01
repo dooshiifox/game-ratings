@@ -46,8 +46,6 @@ declare global {
 
 	/** Indicates that something could be a wrapped promise. */
 	export type MaybePromise<T> = T | Promise<MaybePromise<T>>;
-
-	export type NoInfer<T> = [T][T extends unknown ? 0 : never];
 }
 
 export {};

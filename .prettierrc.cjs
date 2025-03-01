@@ -8,14 +8,5 @@ module.exports = {
 		"prettier-plugin-svelte",
 		"prettier-plugin-organize-imports",
 		"prettier-plugin-tailwindcss"
-	],
-	overrides: [
-		{
-			files: "*.svelte",
-			options: {
-				parser: "svelte",
-				organizeImportsSkipDestructiveCodeActions: true
-			}
-		}
 	]
 };

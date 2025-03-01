@@ -40,7 +40,7 @@
 
 <button
 	use:disclosure.button
-	class="block w-full rounded-xl bg-slate-100 px-4 pb-3 pt-2 text-left shadow transition-all duration-100 focus-visible:outline focus-visible:outline-amber-500 active:opacity-80 md:px-8 md:py-4"
+	class="block w-full rounded-xl bg-slate-100 px-4 pt-2 pb-3 text-left shadow transition-all duration-100 focus-visible:outline focus-visible:outline-amber-500 active:opacity-80 md:px-8 md:py-4"
 >
 	{#snippet finished()}
 		{#if rating.meta.finished === null}{:else if rating.meta.finished}
@@ -106,16 +106,18 @@
 			class="markdown -mx-4 flex flex-col gap-2 px-4 text-lg"
 			transition:slide={{ duration: 200 }}
 		>
-			<div class="-mx-4 mb-6 mt-4 h-px bg-slate-300"></div>
+			<div class="-mx-4 mt-4 mb-6 h-px bg-slate-300"></div>
 
 			<SvelteMarkdown source={rating.content} />
 
-			<div class="h-2" />
+			<div class="h-2"></div>
 		</div>
 	{/if}
 </button>
 
-<style>
+<style lang="postcss">
+	@reference "tailwindcss/theme";
+
 	:global(.markdown h1) {
 		@apply text-3xl font-bold;
 	}
