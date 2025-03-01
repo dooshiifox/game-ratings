@@ -2,18 +2,15 @@ import * as yaml from "js-yaml";
 import * as fs from "node:fs/promises";
 import * as v from "valibot";
 
-const META_STRUCTURE = v.object(
-	{
-		name: v.string(),
-		subtitle: v.optional(v.string()),
-		rating: v.picklist([
-			10, 9.5, 9, 8.5, 8, 7.5, 7, 6.5, 6, 5.5, 5, 4.5, 4, 3.5, 3, 2.5, 2, 1, 0
-		]),
-		finished: v.optional(v.nullable(v.boolean()), null),
-		tags: v.optional(v.array(v.string()), [])
-	},
-	v.never()
-);
+const META_STRUCTURE = v.strictObject({
+	name: v.string(),
+	subtitle: v.optional(v.string()),
+	rating: v.picklist([
+		10, 9.5, 9, 8.5, 8, 7.5, 7, 6.5, 6, 5.5, 5, 4.5, 4, 3.5, 3, 2.5, 2, 1, 0
+	]),
+	finished: v.optional(v.nullable(v.boolean()), null),
+	tags: v.optional(v.array(v.string()), [])
+});
 
 export type Rating = Awaited<ReturnType<typeof reaRatingFile>>;
 
@@ -48,7 +45,7 @@ async function reaRatingFile(file: string) {
 	const metaYaml = yaml.load(metadata.trim());
 	const metaParsed = v.safeParse(META_STRUCTURE, metaYaml);
 	if (!metaParsed.success) {
-		console.warn(metaParsed.issues);
+		console.warn(`Invalid metadata in '${file}':`, metaParsed.issues);
 		throw new Error(`Invalid metadata in '${file}'`);
 	}
 

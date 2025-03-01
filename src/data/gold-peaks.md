@@ -1,5 +1,5 @@
 ---
-title: Golf Peaks
+name: Golf Peaks
 rating: 5.5
 finished: false
 ---

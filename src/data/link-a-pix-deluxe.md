@@ -1,5 +1,5 @@
 ---
-title: Link-a-Pix Deluxe
+name: Link-a-Pix Deluxe
 subtitle: Link-a-Pix
 rating: 6
 ---

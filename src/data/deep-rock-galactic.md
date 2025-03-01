@@ -1,5 +1,5 @@
 ---
-title: Deep Rock Galactic
+name: Deep Rock Galactic
 rating: 5
 ---
 

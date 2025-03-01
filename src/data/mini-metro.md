@@ -1,5 +1,5 @@
 ---
-title: Mini Metro
+name: Mini Metro
 rating: 5.5
 ---
 

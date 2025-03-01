@@ -1,5 +1,5 @@
 ---
-title: Instlife
+name: Instlife
 rating: 5.5
 ---
 

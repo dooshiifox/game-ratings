@@ -1,5 +1,5 @@
 ---
-title: Human Resource Machine
+name: Human Resource Machine
 rating: 6
 finished: false
 ---

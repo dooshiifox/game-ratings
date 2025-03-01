@@ -1,5 +1,5 @@
 ---
-title: 51 Worldwide Games
+name: 51 Worldwide Games
 rating: 6
 ---
 

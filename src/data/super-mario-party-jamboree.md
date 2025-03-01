@@ -1,5 +1,5 @@
 ---
-title: Super Mario Party Jamboree
+name: Super Mario Party Jamboree
 subtitle: Super Mario Party
 rating: 6
 ---
