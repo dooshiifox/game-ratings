@@ -27,6 +27,7 @@ export default ts.config(
 	importX.flatConfigs.typescript,
 	ts.configs.recommendedTypeChecked,
 	ts.configs.stylisticTypeChecked,
+	...svelte.configs.recommended,
 	prettier,
 	...svelte.configs["flat/prettier"],
 	{
