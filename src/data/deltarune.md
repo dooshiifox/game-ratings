@@ -1,8 +1,10 @@
 ---
 name: Deltarune
 subtitle: Undertale
-rating: 7
+rating: 8
 finished: true
 ---
 
 toby fox 2
+
+ch3+4 update: yep still good.
