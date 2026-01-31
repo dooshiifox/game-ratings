@@ -1,7 +1,7 @@
 ---
 name: Mario Kart World
 subtitle: Mario Kart
-rating: 7
+rating: 6.5
 finished: false
 ---
 
