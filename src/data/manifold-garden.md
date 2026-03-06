@@ -1,7 +1,9 @@
 ---
 name: Manifold Garden
-rating: 6.5
-finished: false
+rating: 7
+finished: true
 ---
 
-pretty architecture! and pretty enjoyable puzzles too!
+pretty architecture! and pretty enjoyable puzzles too! wonderful ending.
+
+I might one day go for the cruel ending but... not today
