@@ -1,7 +1,7 @@
 ---
 name: Monument Valley II
 subtitle: Monument Valley
-rating: 7
+rating: 6.5
 finished: true
 ---
 
