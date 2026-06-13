@@ -1,5 +1,6 @@
 ---
 name: Hades
+subtitle: Hades
 rating: 7
 finished: true
 ---
