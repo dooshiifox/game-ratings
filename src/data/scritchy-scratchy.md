@@ -1,5 +1,5 @@
 ---
-title: Scritchy Scratchy
+name: Scritchy Scratchy
 rating: 6
 finished: false
 ---

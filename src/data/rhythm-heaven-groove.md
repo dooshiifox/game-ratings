@@ -1,5 +1,5 @@
 ---
-title: Rhythm Heaven Groove
+name: Rhythm Heaven Groove
 subtitle: Rhythm Heaven
 rating: 7
 finished: false

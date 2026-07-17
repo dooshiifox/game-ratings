@@ -1,5 +1,5 @@
 ---
-title: Taiyaki Fabulous Museum of Fish
+name: Taiyaki Fabulous Museum of Fish
 rating: 6
 finished: true
 ---

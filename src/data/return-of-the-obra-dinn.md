@@ -1,5 +1,5 @@
 ---
-title: Return of the Obra Dinn
+name: Return of the Obra Dinn
 rating: 6.5
 finished: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Balatro
+name: Balatro
 rating: 7
 finished: false
 ---

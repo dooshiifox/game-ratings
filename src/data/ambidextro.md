@@ -1,5 +1,5 @@
 ---
-title: Ambidextro
+name: Ambidextro
 rating: 6
 finished: false
 ---

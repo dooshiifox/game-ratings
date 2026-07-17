@@ -1,5 +1,5 @@
 ---
-title: CloverPit
+name: CloverPit
 rating: 6.5
 finished: false
 ---
