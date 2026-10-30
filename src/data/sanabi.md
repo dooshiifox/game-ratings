@@ -1,6 +1,6 @@
 ---
 name: SANABI
-rating: 6.5
+rating: 6
 finished: false
 ---
 

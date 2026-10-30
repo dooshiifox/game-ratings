@@ -1,7 +1,7 @@
 ---
 name: Age of Imprisonment
 subtitle: "The Legend of Zelda: Hyrule Warriors"
-rating: 6.5
+rating: 7
 finished: true
 ---
 

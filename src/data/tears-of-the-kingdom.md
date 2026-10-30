@@ -1,7 +1,7 @@
 ---
 name: Tears of the Kingdom
 subtitle: The Legend of Zelda
-rating: 8.5
+rating: 8
 finished: true
 tags:
   - totk

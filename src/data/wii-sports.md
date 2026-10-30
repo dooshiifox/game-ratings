@@ -1,5 +1,6 @@
 ---
 name: Wii Sports
+subtitle: Nintendo Sports
 rating: 6
 ---
 

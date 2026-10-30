@@ -1,7 +1,7 @@
 ---
 name: "Legends: Z-A"
 subtitle: Pokemon
-rating: 7.5
+rating: 7
 finished: true
 ---
 
