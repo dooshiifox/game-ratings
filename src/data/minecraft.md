@@ -1,5 +1,6 @@
 ---
 name: Minecraft
+subtitle: Minecraft
 rating: 7.5
 ---
 

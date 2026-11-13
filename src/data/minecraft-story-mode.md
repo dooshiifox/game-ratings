@@ -1,5 +1,6 @@
 ---
 name: "Minecraft: Story Mode"
+subtitle: Minecraft
 rating: 4.5
 finished: false
 ---
